@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="McKenzie Brannon is a front-end developer located in the state of Wisconsin"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link
@@ -26,9 +30,14 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
-    <title>About McKenzie Brannon</title>
+    <title>McKenzie Brannon - About Me</title>
   </head>
   <style>
+    @media (max-width: 600px) {
+      #about {
+        font-size: 70px;
+      }
+    }
     body {
       margin-top: 100px;
       text-align: center;
@@ -72,7 +81,7 @@
         </div>
       </div>
     </nav>
-    <h1 class="text-center">About me</h1>
+    <h1 class="text-center" id="about">About me</h1>
     <h3 class="mb-4">Front-end developer from Wisconsin, USA</h3>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam aperiam
@@ -84,20 +93,23 @@
       <div class="row">
         <div class="col-sm-4">
           <img
-            class="w-100"
-            src="/Users/mckenziebrannon/Desktop/Advanced-Bootstrap/images/yoga.png"
+            class="w-100 d-none d-sm-block"
+            src="/images/yoga.png"
+            alt="photo of yoga app"
           />
         </div>
         <div class="col-sm-4">
           <img
-            class="w-100"
-            src="/Users/mckenziebrannon/Desktop/Advanced-Bootstrap/images/weather.png"
+            class="w-100 d-none d-sm-block"
+            src="/images/weather.png"
+            alt="photo of weather app"
           />
         </div>
         <div class="col-sm-4">
           <img
-            class="w-100"
-            src="/Users/mckenziebrannon/Desktop/Advanced-Bootstrap/images/yogurt.png"
+            class="w-100 d-none d-sm-block"
+            src="/images/yogurt.png"
+            alt="photo of yogurt app"
           />
         </div>
       </div>
